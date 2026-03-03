@@ -33,7 +33,7 @@ Nesta aventura, o trabalho de equipa é fundamental. Enquanto um jogador foca no
 | :--- | :--- | :--- |
 | **Movimento** | Teclas `W`, `A`, `S`, `D` | Setas `↑`, `←`, `↓`, `→` |
 | **Ataque** | Tecla `F` | Tecla `L` |
-| **Salto** | Tecla `W` | Seta `↑` |
+| **Salto** | Tecla `E` | Seta `K` |
 
 ---
 
