@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Butoes
+comment0.text=\r\n\ Classe\ abstrata\ que\ representa\ bot\u00F5es\ clic\u00E1veis\ no\ jogo.\r\n\r\n\ <p>Os\ bot\u00F5es\ reproduzem\ um\ som\ ao\ serem\ clicados\ e\ permitem\ definir\r\n\ uma\ ac\u00E7\u00E3o\ personalizada\ ao\ clique\ atrav\u00E9s\ do\ m\u00E9todo\ {@link\ \#onClick()}.</p>\r\n\r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Define\ a\ imagem\ do\ bot\u00E3o\ ao\ ser\ criado;</li>\r\n\ \ \ <li>Reproduz\ um\ som\ de\ clique\ ao\ ser\ pressionado;</li>\r\n\ \ \ <li>Permite\ implementar\ ac\u00E7\u00F5es\ espec\u00EDficas\ no\ clique\ atrav\u00E9s\ do\ m\u00E9todo\ abstracto\ {@link\ \#onClick()}.</li>\r\n\ </ul>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=imagePath\ clickSound
+comment1.target=Butoes(java.lang.String,\ greenfoot.GreenfootSound)
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ Butoes}.\r\n\r\n\ @param\ imagePath\ caminho\ da\ imagem\ a\ utilizar\ para\ o\ bot\u00E3o.\r\n\ @param\ clickSound\ som\ a\ reproduzir\ quando\ o\ bot\u00E3o\ \u00E9\ clicado.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ pelo\ ciclo\ de\ jogo.\r\n\r\n\ <p>Verifica\ se\ o\ bot\u00E3o\ foi\ clicado\ pelo\ rato.\ Se\ sim,\ reproduz\ o\ som\r\n\ associado\ e\ chama\ o\ m\u00E9todo\ {@link\ \#onClick()}.</p>\r\n
+comment3.params=
+comment3.target=void\ onClick()
+comment3.text=\r\n\ M\u00E9todo\ abstracto\ que\ define\ a\ ac\u00E7\u00E3o\ a\ executar\ quando\ o\ bot\u00E3o\ \u00E9\ clicado.\r\n\ \r\n\ <p>As\ subclasses\ devem\ implementar\ este\ m\u00E9todo\ para\ especificar\ o\ comportamento\ desejado.</p>\r\n
+numComments=4

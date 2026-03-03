@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=VidaUI
+comment0.text=\r\n\ Classe\ VidaUI.\r\n\ <p>\r\n\ Representa\ um\ cora\u00E7\u00E3o\ na\ interface\ do\ jogador,\ indicando\ que\ ele\ possui\ vida.\r\n\ Herda\ de\ {@link\ UI}\ e\ pode\ ser\ adicionado\ ao\ mundo\ para\ exibir\ visualmente\ as\ vidas\ restantes.\r\n\ </p>\r\n\ \r\n\ Funcionalidades\ principais\:\r\n\ <ul>\r\n\ \ \ <li>Exibe\ a\ imagem\ de\ um\ cora\u00E7\u00E3o\ ("heartChar.png").</li>\r\n\ \ \ <li>Permite\ remover\ o\ cora\u00E7\u00E3o\ do\ mundo\ quando\ o\ jogador\ perde\ vida.</li>\r\n\ \ \ <li>Permite\ consultar\ se\ o\ cora\u00E7\u00E3o\ ainda\ est\u00E1\ ativo/vis\u00EDvel.</li>\r\n\ </ul>\r\n
+comment1.params=
+comment1.target=VidaUI()
+comment1.text=\r\n\ Construtor\ da\ classe\ VidaUI.\r\n\ <p>\r\n\ Inicializa\ a\ imagem\ do\ cora\u00E7\u00E3o.\r\n\ </p>\r\n
+comment2.params=
+comment2.target=void\ perderVida()
+comment2.text=\r\n\ Marca\ este\ cora\u00E7\u00E3o\ como\ perdido\ e\ o\ remove\ do\ mundo.\r\n\ <p>\r\n\ S\u00F3\ remove\ se\ ainda\ estiver\ ativo.\r\n\ </p>\r\n
+comment3.params=
+comment3.target=boolean\ isAtiva()
+comment3.text=\r\n\ Verifica\ se\ o\ cora\u00E7\u00E3o\ ainda\ est\u00E1\ ativo/vis\u00EDvel.\r\n\ \r\n\ @return\ true\ se\ o\ cora\u00E7\u00E3o\ ainda\ est\u00E1\ vis\u00EDvel,\ false\ caso\ contr\u00E1rio\r\n
+numComments=4

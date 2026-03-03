@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Score
+comment0.text=\r\n\ Representa\ o\ indicador\ de\ pontua\u00E7\u00E3o\ do\ jogo.\r\n\ <p>\r\n\ Exibe\ a\ pontua\u00E7\u00E3o\ atual\ do\ jogador\ na\ tela,\ atualizando\ sempre\ que\ necess\u00E1rio.\r\n\ A\ pontua\u00E7\u00E3o\ global\ \u00E9\ mantida\ pela\ classe\ {@link\ ScoreGlobal}.\r\n\ </p>\r\n
+comment1.params=
+comment1.target=Score()
+comment1.text=\r\n\ Construtor\ da\ classe\ Score.\r\n\ <p>\r\n\ Inicializa\ o\ indicador\ de\ pontua\u00E7\u00E3o\ na\ tela\ chamando\ {@link\ \#atualizar()}.\r\n\ </p>\r\n
+comment2.params=
+comment2.target=void\ atualizar()
+comment2.text=\r\n\ Atualiza\ a\ imagem\ do\ indicador\ de\ pontua\u00E7\u00E3o\ no\ mundo.\r\n\ <p>\r\n\ Obt\u00E9m\ o\ valor\ atual\ da\ pontua\u00E7\u00E3o\ global\ {@link\ ScoreGlobal\#get()}\ e\ cria\r\n\ uma\ nova\ imagem\ com\ o\ texto\ "Score\:\ X",\ onde\ X\ \u00E9\ o\ valor\ da\ pontua\u00E7\u00E3o.\r\n\ </p>\r\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Settings
+comment0.text=\r\n\ Representa\ o\ bot\u00E3o\ de\ "Configura\u00E7\u00F5es"\ no\ menu\ principal\ do\ jogo.\r\n\r\n\ <p>Este\ bot\u00E3o,\ quando\ clicado,\ interrompe\ a\ m\u00FAsica\ do\ menu\r\n\ e\ carrega\ o\ mundo\ de\ configura\u00E7\u00F5es\ {@link\ Jebait}.</p>\r\n\r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Define\ a\ imagem\ do\ bot\u00E3o\ como\ "settings.png";</li>\r\n\ \ \ <li>Reproduz\ o\ som\ de\ clique\ ao\ ser\ pressionado\ (herdado\ de\ {@link\ Butoes});</li>\r\n\ \ \ <li>Para\ a\ m\u00FAsica\ do\ menu\ ao\ clicar;</li>\r\n\ \ \ <li>Carrega\ o\ mundo\ de\ configura\u00E7\u00F5es\ {@link\ Jebait}.</li>\r\n\ </ul>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=Settings()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ Settings}.\r\n\r\n\ <p>Configura\ a\ imagem\ do\ bot\u00E3o\ e\ associa\ o\ som\ de\ clique.</p>\r\n
+comment2.params=
+comment2.target=void\ onClick()
+comment2.text=\r\n\ Ac\u00E7\u00E3o\ a\ executar\ quando\ o\ bot\u00E3o\ \u00E9\ clicado.\r\n\r\n\ <p>Para\ a\ m\u00FAsica\ do\ menu\ e\ inicia\ o\ mundo\ {@link\ Jebait}.</p>\r\n
+numComments=3

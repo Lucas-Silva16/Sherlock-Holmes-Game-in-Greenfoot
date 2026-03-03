@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Sherlock
+comment0.text=\r\n\ Representa\ o\ personagem\ jog\u00E1vel\ Sherlock.\r\n\r\n\ <p>Herda\ todas\ as\ funcionalidades\ de\ {@link\ Jogador},\ adicionando\:\r\n\ <ul>\r\n\ \ \ <li>Controle\ espec\u00EDfico\ de\ colis\u00E3o\ com\ plataformas\ ({@link\ Plataforma});</li>\r\n\ \ \ <li>Dete\u00E7\u00E3o\ de\ colis\u00E3o\ com\ cartas\ ({@link\ carta})\ e\ reprodu\u00E7\u00E3o\ de\ \u00E1udio\ associado;</li>\r\n\ \ \ <li>Exibi\u00E7\u00E3o\ de\ mensagens\ ap\u00F3s\ tocar\ o\ som\ da\ carta;</li>\r\n\ \ \ <li>Transi\u00E7\u00E3o\ autom\u00E1tica\ para\ o\ pr\u00F3ximo\ n\u00EDvel\ ({@link\ CLevel2})\ ao\ pressionar\ SPACE.</li>\r\n\ </ul>\r\n\ </p>\r\n\ \r\n\ <p>Este\ actor\ \u00E9\ utilizado\ nos\ n\u00EDveis\ iniciais\ para\ representar\ o\ personagem\ Sherlock.</p>\r\n\ \r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Movimento\ horizontal\ e\ vertical\ controlado\ pelo\ jogador;</li>\r\n\ \ \ <li>Disparo\ de\ balas\ usando\ {@link\ Bala};</li>\r\n\ \ \ <li>Intera\u00E7\u00E3o\ com\ cartas\ para\ avan\u00E7ar\ a\ hist\u00F3ria;</li>\r\n\ \ \ <li>Integra\u00E7\u00E3o\ com\ o\ sistema\ de\ plataformas\ do\ jogo.</li>\r\n\ </ul>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=groundLevel
+comment1.target=Sherlock(int)
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ Sherlock}.\r\n\r\n\ @param\ groundLevel\ n\u00EDvel\ do\ ch\u00E3o\ para\ o\ personagem\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ pelo\ ciclo\ de\ jogo.\r\n\r\n\ <p>Controla\ movimento,\ colis\u00F5es\ com\ plataformas\ e\ cartas,\r\n\ reprodu\u00E7\u00E3o\ de\ \u00E1udio,\ exibi\u00E7\u00E3o\ de\ mensagens\ e\ transi\u00E7\u00E3o\ de\ n\u00EDvel.</p>\r\n
+numComments=3

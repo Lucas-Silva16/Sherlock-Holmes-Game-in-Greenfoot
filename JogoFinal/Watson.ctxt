@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Watson
+comment0.text=\r\n\ Representa\ o\ personagem\ jog\u00E1vel\ Watson.\r\n\r\n\ <p>Herda\ todas\ as\ funcionalidades\ de\ {@link\ Jogador},\ adicionando\:\r\n\ <ul>\r\n\ \ \ <li>Movimento\ horizontal\ e\ vertical\ controlado\ pelo\ jogador;</li>\r\n\ \ \ <li>Disparo\ de\ balas\ usando\ {@link\ Bala};</li>\r\n\ \ \ <li>Configura\u00E7\u00E3o\ espec\u00EDfica\ de\ teclas\ e\ anima\u00E7\u00F5es\ pr\u00F3prias\ de\ Watson;</li>\r\n\ \ \ <li>Integra\u00E7\u00E3o\ com\ o\ sistema\ de\ plataformas\ e\ limites\ do\ n\u00EDvel.</li>\r\n\ </ul>\r\n\ </p>\r\n\r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Movimento\ e\ anima\u00E7\u00F5es\ do\ personagem;</li>\r\n\ \ \ <li>Disparo\ de\ proj\u00E9teis\ e\ intera\u00E7\u00E3o\ com\ inimigos;</li>\r\n\ \ \ <li>Permite\ ativar/desativar\ salto\ e\ movimento\ vertical\ dependendo\ do\ n\u00EDvel.</li>\r\n\ </ul>\r\n\ \r\n\ <p>Este\ actor\ \u00E9\ utilizado\ nos\ n\u00EDveis\ do\ jogo\ para\ representar\ o\ personagem\ Watson.</p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=groundLevel
+comment1.target=Watson(int)
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ Watson}.\r\n\r\n\ @param\ groundLevel\ n\u00EDvel\ do\ ch\u00E3o\ para\ o\ personagem\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ pelo\ ciclo\ de\ jogo.\r\n\r\n\ <p>Chama\ a\ l\u00F3gica\ base\ de\ {@link\ Jogador}\ para\ controlar\ movimento,\r\n\ anima\u00E7\u00E3o,\ disparo\ e\ colis\u00F5es.</p>\r\n
+numComments=3

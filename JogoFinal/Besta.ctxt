@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Besta
+comment0.text=\r\n\ Classe\ que\ representa\ a\ Besta,\ um\ inimigo\ avan\u00E7ado\ do\ jogo.\r\n\ \r\n\ <p>Herda\ de\ {@link\ Inimigo}\ e\ define\:\r\n\ <ul>\r\n\ \ \ <li>Vida\ inicial,\ velocidade\ e\ delay\ de\ spawn;</li>\r\n\ \ \ <li>Sons\ espec\u00EDficos\ de\ spawn,\ hit\ e\ morte;</li>\r\n\ \ \ <li>Sprites\ de\ anima\u00E7\u00E3o\ para\ spawn/idle\ e\ a\u00E7\u00E3o;</li>\r\n\ \ \ <li>Comportamento\ de\ persegui\u00E7\u00E3o\ aos\ jogadores\ vivos.</li>\r\n\ </ul></p>\r\n\ \r\n\ <p>Se\ n\u00E3o\ houver\ jogadores\ vivos,\ o\ jogo\ termina\ com\ o\ ecr\u00E3\ de\ Game\ Over.</p>\r\n\ \r\n\ <p>Autor\:\ Grupo\ 8</p>\r\n
+comment1.params=
+comment1.target=Besta()
+comment1.text=\r\n\ Construtor\ da\ Besta.\r\n\ Inicializa\ vidas,\ velocidade,\ delay,\ sprites\ e\ sons\ espec\u00EDficos.\r\n
+comment2.params=
+comment2.target=void\ comportamento()
+comment2.text=\r\n\ Comportamento\ espec\u00EDfico\ da\ Besta.\r\n\ \r\n\ <p>Persegue\ o\ jogador\ alvo.\ Se\ n\u00E3o\ houver\ jogadores\ vivos,\ termina\ o\ jogo.</p>\r\n
+numComments=3

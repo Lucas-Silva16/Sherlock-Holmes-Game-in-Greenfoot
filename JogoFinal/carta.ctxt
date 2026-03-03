@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=carta
+comment0.text=\r\n\ Representa\ uma\ carta\ no\ jogo.\r\n\ \r\n\ <p>Herda\ de\ {@link\ Colisoes},\ permitindo\ ser\ utilizada\ nos\ sistemas\r\n\ de\ dete\u00E7\u00E3o\ de\ colis\u00E3o\ com\ jogadores\ ou\ outros\ objetos\ interativos.</p>\r\n\ \r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Redimensiona\ a\ imagem\ da\ carta\ ao\ ser\ criada;</li>\r\n\ \ \ <li>N\u00E3o\ possui\ a\u00E7\u00F5es\ pr\u00F3prias\ no\ ciclo\ do\ jogo\ ({@link\ \#act()});</li>\r\n\ \ \ <li>Pode\ ser\ usada\ como\ objeto\ interativo\ para\ mostrar\ mensagens\ ou\ eventos.</li>\r\n\ </ul>\r\n\ \r\n\ <p>Esta\ classe\ \u00E9\ utilizada\ principalmente\ no\ primeiro\ n\u00EDvel\ ({@link\ BLevel1}).</p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=carta()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ carta}.\r\n\ Redimensiona\ a\ imagem\ da\ carta.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ chamado\ continuamente\ pelo\ ciclo\ do\ jogo.\r\n\ \r\n\ <p>N\u00E3o\ possui\ implementa\u00E7\u00E3o\ pois\ a\ carta\ n\u00E3o\ executa\ a\u00E7\u00F5es\ aut\u00F3nomas.</p>\r\n
+numComments=3

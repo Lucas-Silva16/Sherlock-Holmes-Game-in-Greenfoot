@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=UI
+comment0.text=\r\n\ Classe\ abstrata\ base\ para\ elementos\ de\ interface\ gr\u00E1fica\ (UI)\ do\ jogo.\r\n\ <p>\r\n\ Serve\ como\ base\ para\ todos\ os\ elementos\ de\ UI,\ como\ indicadores\ de\ vida,\ barras,\ ou\ \u00EDcones.\r\n\ Fornece\ funcionalidades\ comuns,\ como\ remo\u00E7\u00E3o\ do\ mundo\ e\ manipula\u00E7\u00E3o\ de\ imagem.\r\n\ N\u00E3o\ deve\ ser\ instanciada\ diretamente;\ outras\ classes\ como\ {@link\ VidaUI},\ {@link\ WatsonUI}\ e\ {@link\ HolmesUI}\ herdam\ desta\ classe.\r\n\ </p>\r\n
+comment1.params=
+comment1.target=UI()
+comment1.text=\r\n\ Construtor\ da\ classe\ UI.\r\n\ <p>\r\n\ Permite\ que\ subclasses\ inicializem\ elementos\ de\ interface.\r\n\ </p>\r\n
+comment2.params=
+comment2.target=void\ removerDoMundo()
+comment2.text=\r\n\ Remove\ este\ ator\ do\ mundo.\r\n\ <p>\r\n\ Verifica\ se\ o\ ator\ est\u00E1\ atualmente\ em\ um\ mundo\ e,\ se\ sim,\ remove-o.\r\n\ \u00DAtil\ para\ limpar\ elementos\ de\ UI\ dinamicamente.\r\n\ </p>\r\n
+numComments=3

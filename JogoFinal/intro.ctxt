@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=intro
+comment0.text=\r\n\ Representa\ a\ cena\ introdut\u00F3ria\ do\ jogo.\r\n\r\n\ <p>Este\ mundo\ apresenta\ a\ introdu\u00E7\u00E3o\ gr\u00E1fica,\ explica\ os\ controlos\ e\ adiciona\r\n\ as\ personagens\ principais\ com\ movimentos\ e\ disparos\ desactivados\ para\ demonstra\u00E7\u00E3o.</p>\r\n\r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Exibe\ a\ imagem\ de\ introdu\u00E7\u00E3o\ e\ a\ instru\u00E7\u00E3o\ "Press\ space\ to\ continue";</li>\r\n\ \ \ <li>Adiciona\ as\ personagens\ {@link\ Sherlock}\ e\ {@link\ Watson}\ com\ movimento\ e\ disparo\ desactivados;</li>\r\n\ \ \ <li>Mostra\ representa\u00E7\u00F5es\ gr\u00E1ficas\ dos\ controlos\ (AWSD\ para\ Watson\ e\ setas\ para\ Sherlock);</li>\r\n\ \ \ <li>Mant\u00E9m\ o\ sistema\ de\ pausa\ activo;</li>\r\n\ \ \ <li>Ao\ pressionar\ <b>ESPA\u00C7O</b>,\ inicia\ o\ primeiro\ n\u00EDvel\ ({@link\ BLevel1})\ e\ toca\ o\ som\ de\ clique.</li>\r\n\ </ul>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=intro()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ intro}.\r\n\r\n\ <p>Configura\ o\ fundo,\ adiciona\ as\ personagens\ e\ os\ elementos\ gr\u00E1ficos\ de\ instru\u00E7\u00E3o.</p>\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ durante\ o\ ciclo\ de\ jogo.\r\n\r\n\ <p>Verifica\ se\ o\ jogador\ pressionou\ a\ tecla\ <b>ESPA\u00C7O</b>\ e,\ caso\ afirmativo,\r\n\ inicia\ o\ primeiro\ n\u00EDvel\ {@link\ BLevel1}\ e\ reproduz\ o\ som\ de\ clique.</p>\r\n
+numComments=3

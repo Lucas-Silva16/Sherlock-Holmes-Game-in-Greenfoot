@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pista1
+comment0.text=\r\n\ Representa\ a\ primeira\ pista\ do\ jogo.\r\n\ \r\n\ <p>Quando\ o\ personagem\ Sherlock\ interage\ com\ esta\ pista,\r\n\ \u00E9\ apresentada\ uma\ mensagem\ de\ hist\u00F3ria\ e\ o\ jogador\ \u00E9\ questionado\r\n\ se\ deseja\ avan\u00E7ar\ para\ o\ pr\u00F3ximo\ n\u00EDvel\ ({@link\ DLevel3}).</p>\r\n\ \r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Deteta\ colis\u00E3o\ pixel-perfect\ com\ Sherlock;</li>\r\n\ \ \ <li>Apresenta\ mensagem\ narrativa\ ao\ jogador;</li>\r\n\ \ \ <li>Permite\ avan\u00E7ar\ para\ o\ n\u00EDvel\ seguinte\ ap\u00F3s\ confirma\u00E7\u00E3o;</li>\r\n\ \ \ <li>Remove-se\ do\ mundo\ quando\ utilizada.</li>\r\n\ </ul>\r\n\ \r\n\ <p>Esta\ pista\ \u00E9\ utilizada\ no\ segundo\ n\u00EDvel\ ({@link\ CLevel2}).</p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=Pista1()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ Pista1}.\r\n\ Redimensiona\ a\ imagem\ da\ pista.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ pelo\ ciclo\ do\ jogo.\r\n\ \r\n\ <p>Deteta\ colis\u00E3o\ com\ Sherlock\ e\ apresenta\ a\ mensagem\ de\ hist\u00F3ria,\r\n\ perguntando\ se\ o\ jogador\ deseja\ avan\u00E7ar\ para\ o\ pr\u00F3ximo\ n\u00EDvel.</p>\r\n
+numComments=3

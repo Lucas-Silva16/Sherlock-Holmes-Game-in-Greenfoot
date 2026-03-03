@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Bala
+comment0.text=\r\n\ Representa\ os\ proj\u00E9teis\ disparados\ pelos\ jogadores.\r\n\r\n\ <p>Esta\ classe\ herda\ de\ {@link\ Colisoes},\ permitindo\ detec\u00E7\u00E3o\ de\ colis\u00E3o\r\n\ pixel-perfect\ se\ necess\u00E1rio.</p>\r\n\r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Define\ a\ dire\u00E7\u00E3o\ e\ velocidade\ do\ proj\u00E9til;</li>\r\n\ \ \ <li>Move\ a\ bala\ na\ dire\u00E7\u00E3o\ definida\ durante\ o\ jogo;</li>\r\n\ \ \ <li>Verifica\ colis\u00E3o\ com\ inimigos\ ({@link\ Inimigo})\ e\ aplica\ dano;</li>\r\n\ \ \ <li>Remove\ a\ bala\ caso\ atinja\ um\ inimigo\ ou\ a\ borda\ do\ mundo;</li>\r\n\ \ \ <li>Respeita\ o\ estado\ de\ pausa\ do\ jogo.</li>\r\n\ </ul>\r\n\ \r\n\ <p>Este\ actor\ \u00E9\ utilizado\ para\ representar\ as\ balas\ disparadas\ tanto\ por\ Sherlock\ como\ por\ Watson.</p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=facingRight
+comment1.target=Bala(boolean)
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ Bala}.\r\n\r\n\ @param\ facingRight\ dire\u00E7\u00E3o\ inicial\ da\ bala\ (true\ \=\ direita,\ false\ \=\ esquerda)\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ pelo\ ciclo\ de\ jogo.\r\n\r\n\ <p>Move\ a\ bala,\ verifica\ colis\u00E3o\ com\ inimigos\ e\ remove-a\ caso\ necess\u00E1rio,\r\n\ respeitando\ o\ estado\ de\ pausa\ do\ jogo.</p>\r\n
+comment3.params=
+comment3.target=void\ mover()
+comment3.text=\r\n\ Move\ a\ bala\ na\ dire\u00E7\u00E3o\ definida.\r\n
+comment4.params=
+comment4.target=void\ verificarColisao()
+comment4.text=\r\n\ Verifica\ se\ a\ bala\ colidiu\ com\ algum\ inimigo.\r\n\r\n\ <p>Se\ ocorrer\ colis\u00E3o,\ aplica\ dano\ ao\ inimigo\ e\ remove\ a\ bala\ do\ mundo.</p>\r\n
+comment5.params=
+comment5.target=void\ removerBala()
+comment5.text=\r\n\ Remove\ a\ bala\ se\ atingir\ a\ borda\ do\ mundo.\r\n
+numComments=6

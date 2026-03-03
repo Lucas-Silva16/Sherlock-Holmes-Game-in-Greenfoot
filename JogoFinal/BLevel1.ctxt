@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BLevel1
+comment0.text=\r\n\ Representa\ o\ primeiro\ n\u00EDvel\ do\ jogo.\r\n\ \r\n\ <p>\u00C9\ respons\u00E1vel\ por\ inicializar\ o\ ambiente\ do\ n\u00EDvel,\ incluindo\:\r\n\ <ul>\r\n\ \ \ <li>Cria\u00E7\u00E3o\ e\ posicionamento\ das\ personagens\ {@link\ Sherlock}\ e\ {@link\ Watson};</li>\r\n\ \ \ <li>Inicializa\u00E7\u00E3o\ da\ interface\ do\ jogador\ ({@link\ PlayerUI});</li>\r\n\ \ \ <li>Controlo\ da\ m\u00FAsica\ de\ fundo\ do\ n\u00EDvel;</li>\r\n\ \ \ <li>Verifica\u00E7\u00E3o\ do\ estado\ de\ pausa;</li>\r\n\ \ \ <li>Exibi\u00E7\u00E3o\ de\ uma\ carta\ interactiva\ quando\ o\ Sherlock\ ultrapassa\ uma\ posi\u00E7\u00E3o\ espec\u00EDfica.</li>\r\n\ </ul>\r\n\ </p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=BLevel1()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ BLevel1}.\r\n\ \r\n\ <p>Configura\ o\ cen\u00E1rio,\ adiciona\ as\ personagens\ e\ inicializa\ a\ interface\ do\ jogador.\r\n\ Tamb\u00E9m\ inicia\ a\ reprodu\u00E7\u00E3o\ da\ m\u00FAsica\ de\ fundo\ do\ n\u00EDvel.</p>\r\n
+comment2.params=
+comment2.target=void\ pararMusica()
+comment2.text=\r\n\ P\u00E1ra\ a\ m\u00FAsica\ de\ fundo\ do\ n\u00EDvel.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ M\u00E9todo\ executado\ continuamente\ durante\ o\ ciclo\ de\ jogo.\r\n\ \r\n\ <p>\u00C9\ respons\u00E1vel\ por\:\r\n\ <ul>\r\n\ \ \ <li>Verificar\ se\ o\ jogo\ est\u00E1\ em\ pausa;</li>\r\n\ \ \ <li>Fazer\ aparecer\ a\ carta\ quando\ o\ {@code\ Sherlock}\ ultrapassa\ a\ posi\u00E7\u00E3o\ x\ \=\ 400;</li>\r\n\ \ \ <li>Tocar\ o\ som\ da\ porta\ quando\ a\ carta\ aparece.</li>\r\n\ </ul>\r\n\ </p>\r\n
+numComments=4

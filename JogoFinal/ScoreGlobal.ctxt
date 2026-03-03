@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ScoreGlobal
+comment0.text=\r\n\ Classe\ respons\u00E1vel\ por\ gerir\ a\ pontua\u00E7\u00E3o\ global\ do\ jogo.\r\n\ \r\n\ <p>Todos\ os\ m\u00E9todos\ e\ vari\u00E1veis\ s\u00E3o\ est\u00E1ticos,\ permitindo\ que\ a\ pontua\u00E7\u00E3o\r\n\ seja\ partilhada\ entre\ diferentes\ classes\ e\ mundos.</p>\r\n\ \r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Adicionar\ ou\ remover\ pontos;</li>\r\n\ \ \ <li>Garantir\ que\ a\ pontua\u00E7\u00E3o\ nunca\ \u00E9\ negativa;</li>\r\n\ \ \ <li>Reiniciar\ a\ pontua\u00E7\u00E3o;</li>\r\n\ \ \ <li>Obter\ o\ valor\ atual\ da\ pontua\u00E7\u00E3o.</li>\r\n\ </ul>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=valor
+comment1.target=void\ adicionar(int)
+comment1.text=\r\n\ Adiciona\ ou\ remove\ pontos\ ao\ total\ da\ pontua\u00E7\u00E3o.\r\n\ \r\n\ @param\ valor\ N\u00FAmero\ de\ pontos\ a\ adicionar\ (ou\ negativo\ para\ remover)\r\n
+comment2.params=
+comment2.target=void\ reset()
+comment2.text=Reinicia\ a\ pontua\u00E7\u00E3o\ para\ zero.
+comment3.params=
+comment3.target=int\ get()
+comment3.text=\r\n\ Retorna\ o\ valor\ atual\ da\ pontua\u00E7\u00E3o.\r\n\ \r\n\ @return\ Pontua\u00E7\u00E3o\ atual\r\n
+numComments=4

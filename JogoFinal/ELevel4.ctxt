@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ELevel4
+comment0.text=\r\n\ Representa\ o\ quarto\ n\u00EDvel\ do\ jogo,\ que\ introduz\ um\ labirinto\ e\ uma\ chave\ interactiva.\r\n\r\n\ <p>\u00C9\ respons\u00E1vel\ por\ configurar\ e\ gerir\ os\ elementos\ principais\ do\ n\u00EDvel,\ incluindo\:\r\n\ <ul>\r\n\ \ \ <li>Cria\u00E7\u00E3o\ e\ posicionamento\ das\ personagens\ {@link\ Sherlock}\ e\ {@link\ Watson}\ com\ limites\ verticais\ definidos;</li>\r\n\ \ \ <li>Activa\u00E7\u00E3o\ do\ movimento\ vertical\ e\ desactiva\u00E7\u00E3o\ do\ salto;</li>\r\n\ \ \ <li>Cria\u00E7\u00E3o\ das\ paredes\ horizontais\ e\ verticais\ que\ formam\ o\ labirinto;</li>\r\n\ \ \ <li>Execu\u00E7\u00E3o\ da\ m\u00FAsica\ de\ fundo\ espec\u00EDfica\ do\ n\u00EDvel;</li>\r\n\ \ \ <li>Aparecimento\ da\ {@link\ Chave}\ quando\ o\ Sherlock\ ultrapassa\ uma\ determinada\ posi\u00E7\u00E3o\ no\ eixo\ X;</li>\r\n\ \ \ <li>Implementa\u00E7\u00E3o\ do\ sistema\ de\ pausa;</li>\r\n\ \ \ <li>Possibilidade\ de\ parar\ a\ m\u00FAsica\ do\ n\u00EDvel\ quando\ necess\u00E1rio.</li>\r\n\ </ul>\r\n\ </p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=ELevel4()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ ELevel4}.\r\n\ \r\n\ <p>Configura\ o\ cen\u00E1rio,\ inicializa\ as\ personagens,\ define\ o\ labirinto\ atrav\u00E9s\ de\ paredes\r\n\ horizontais\ e\ verticais\ e\ inicia\ a\ m\u00FAsica\ de\ fundo.</p>\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ durante\ o\ ciclo\ de\ jogo.\r\n\ \r\n\ <p>\u00C9\ respons\u00E1vel\ por\:\r\n\ <ul>\r\n\ \ \ <li>Verificar\ se\ o\ jogo\ est\u00E1\ em\ pausa;</li>\r\n\ \ \ <li>Fazer\ aparecer\ a\ {@link\ Chave}\ quando\ o\ Sherlock\ ultrapassa\ a\ posi\u00E7\u00E3o\ x\ \=\ 400;</li>\r\n\ \ \ <li>Tocar\ o\ som\ de\ notifica\u00E7\u00E3o\ quando\ a\ chave\ aparece.</li>\r\n\ </ul>\r\n\ </p>\r\n
+comment3.params=
+comment3.target=void\ spawnParedes()
+comment3.text=\r\n\ Cria\ todas\ as\ paredes\ que\ comp\u00F5em\ o\ labirinto\ do\ n\u00EDvel.\r\n\ \r\n\ <p>As\ paredes\ s\u00E3o\ geradas\ atrav\u00E9s\ de\ chamadas\ aos\ m\u00E9todos\r\n\ {@link\ \#addHorizontalWall(int,\ int)}\ e\ {@link\ \#addVerticalWall(int,\ int)},\r\n\ com\ coordenadas\ pr\u00E9-definidas\ que\ formam\ o\ percurso\ do\ labirinto.</p>\r\n
+comment4.params=x\ y
+comment4.target=void\ addHorizontalWall(int,\ int)
+comment4.text=\r\n\ Adiciona\ uma\ parede\ horizontal\ ao\ mundo\ na\ posi\u00E7\u00E3o\ especificada.\r\n\ \r\n\ @param\ x\ posi\u00E7\u00E3o\ horizontal\ da\ parede.\r\n\ @param\ y\ posi\u00E7\u00E3o\ vertical\ da\ parede.\r\n
+comment5.params=x\ y
+comment5.target=void\ addVerticalWall(int,\ int)
+comment5.text=\r\n\ Adiciona\ uma\ parede\ vertical\ ao\ mundo\ na\ posi\u00E7\u00E3o\ especificada.\r\n\ \r\n\ @param\ x\ posi\u00E7\u00E3o\ horizontal\ da\ parede.\r\n\ @param\ y\ posi\u00E7\u00E3o\ vertical\ da\ parede.\r\n
+comment6.params=
+comment6.target=void\ pararMusica()
+comment6.text=\r\n\ P\u00E1ra\ a\ m\u00FAsica\ de\ fundo\ do\ n\u00EDvel.\r\n
+numComments=7

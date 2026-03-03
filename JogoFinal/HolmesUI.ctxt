@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HolmesUI
+comment0.text=\r\n\ Classe\ HolmesUI.\r\n\ <p>\r\n\ Representa\ o\ elemento\ de\ interface\ gr\u00E1fica\ (UI)\ do\ personagem\ Holmes.\r\n\ Herda\ de\ {@link\ UI}\ e\ pode\ ser\ adicionado\ ao\ mundo\ para\ exibir\ informa\u00E7\u00F5es\ visuais\r\n\ relacionadas\ a\ Holmes.\r\n\ </p>\r\n\ \r\n\ Funcionalidades\ principais\:\r\n\ <ul>\r\n\ \ \ <li>Redimensiona\ a\ imagem\ do\ Holmes\ para\ 500x300\ pixels.</li>\r\n\ \ \ <li>Pode\ ser\ espelhado\ horizontalmente\ (se\ necess\u00E1rio).</li>\r\n\ \ \ <li>Herda\ m\u00E9todos\ de\ UI,\ incluindo\ {@link\ \#removerDoMundo()}.</li>\r\n\ </ul>\r\n
+comment1.params=
+comment1.target=HolmesUI()
+comment1.text=\r\n\ Construtor\ da\ classe\ HolmesUI.\r\n\ <p>\r\n\ Redimensiona\ a\ imagem\ do\ ator\ para\ 500x300\ pixels\ e\ aplica-a.\r\n\ </p>\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ act\ do\ HolmesUI.\r\n\ <p>\r\n\ Atualmente\ vazio,\ pois\ o\ UI\ n\u00E3o\ precisa\ de\ a\u00E7\u00F5es\ cont\u00EDnuas.\r\n\ </p>\r\n
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Boss
+comment0.text=\r\n\ Classe\ que\ representa\ o\ Boss,\ inimigo\ chefe\ do\ jogo.\r\n\ \r\n\ <p>Herda\ de\ {@link\ Inimigo}\ e\ possui\:\r\n\ <ul>\r\n\ \ \ <li>Vidas\ altas\ (40),\ movimento\ lento\ (0.5)\ e\ delay\ inicial\ de\ spawn;</li>\r\n\ \ \ <li>Sons\ de\ spawn,\ hit\ e\ morte;</li>\r\n\ \ \ <li>Sprites\ de\ anima\u00E7\u00E3o\ para\ spawn/idle\ e\ ataque;</li>\r\n\ \ \ <li>Comportamento\ espec\u00EDfico\:\ persegue\ jogadores\ vivos\ e\ mata\ instantaneamente\ ao\ contacto;</li>\r\n\ \ \ <li>Ao\ morrer,\ adiciona\ pontos\ extra\ e\ envia\ o\ jogador\ para\ o\ ecr\u00E3\ de\ vit\u00F3ria.</li>\r\n\ </ul></p>\r\n\ \r\n\ <p>Autor\:\ Grupo\ 8</p>\r\n
+comment1.params=
+comment1.target=Boss()
+comment1.text=\r\n\ Construtor\ do\ Boss.\r\n\ Inicializa\ vidas,\ velocidade,\ delay,\ sprites\ e\ sons\ espec\u00EDficos.\r\n
+comment2.params=
+comment2.target=void\ comportamento()
+comment2.text=\r\n\ Comportamento\ espec\u00EDfico\ do\ Boss.\r\n\ \r\n\ <p>Persegue\ o\ jogador\ alvo.\ Se\ colidir,\ remove\ todas\ as\ vidas\ do\ jogador\r\n\ e\ for\u00E7a\ Game\ Over.</p>\r\n
+comment3.params=
+comment3.target=void\ morrer()
+comment3.text=\r\n\ Comportamento\ de\ morte\ do\ Boss.\r\n\ \r\n\ <p>Toca\ som\ de\ morte,\ adiciona\ pontos\ extra\ ao\ ScoreGlobal,\r\n\ guarda\ a\ pontua\u00E7\u00E3o\ final\ e\ muda\ para\ o\ ecr\u00E3\ de\ vit\u00F3ria.</p>\r\n
+numComments=4

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=awsd
+comment0.text=\r\n\ Classe\ awsd.\r\n\ <p>\r\n\ Representa\ uma\ imagem\ gr\u00E1fica\ que\ indica\ os\ controles\ do\ jogador\ Watson\ (teclas\ W,\ A,\ S,\ D).\r\n\ Herda\ de\ {@link\ Actor}\ do\ Greenfoot.\r\n\ </p>\r\n\ \r\n\ Funcionalidades\ principais\:\r\n\ <ul>\r\n\ \ \ <li>Redimensiona\ a\ imagem\ para\ 300x300\ pixels\ no\ momento\ da\ cria\u00E7\u00E3o.</li>\r\n\ \ \ <li>N\u00E3o\ possui\ a\u00E7\u00F5es\ autom\u00E1ticas\ no\ m\u00E9todo\ {@link\ Actor\#act()}.</li>\r\n\ </ul>\r\n
+comment1.params=
+comment1.target=awsd()
+comment1.text=\r\n\ Construtor\ da\ classe\ awsd.\r\n\ <p>\r\n\ Inicializa\ o\ ator\ e\ redimensiona\ a\ imagem\ para\ 300x300\ pixels.\r\n\ </p>\r\n
+numComments=2

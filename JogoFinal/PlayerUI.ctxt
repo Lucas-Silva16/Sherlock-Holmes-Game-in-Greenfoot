@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PlayerUI
+comment0.text=\r\n\ Classe\ respons\u00E1vel\ por\ gerir\ a\ interface\ gr\u00E1fica\ (UI)\ dos\ jogadores\ Sherlock\ e\ Watson.\r\n\ \r\n\ <p>Esta\ classe\ adiciona\ ao\ mundo\ os\ elementos\ visuais\ de\ interface,\ incluindo\:</p>\r\n\ <ul>\r\n\ \ \ <li>Avatares\ de\ Holmes\ e\ Watson;</li>\r\n\ \ \ <li>Cora\u00E7\u00F5es\ que\ representam\ a\ vida\ de\ cada\ jogador;</li>\r\n\ \ \ <li>Atualiza\u00E7\u00E3o\ e\ remo\u00E7\u00E3o\ da\ UI\ quando\ necess\u00E1rio.</li>\r\n\ </ul>\r\n\ \r\n\ <p>Permite\ associar\ a\ UI\ aos\ objetos\ {@link\ Sherlock}\ e\ {@link\ Watson}\ existentes\ no\ mundo.</p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=world\ sherlock\ watson
+comment1.target=PlayerUI(greenfoot.World,\ Sherlock,\ Watson)
+comment1.text=\r\n\ Construtor\ da\ UI\ dos\ jogadores.\r\n\ \r\n\ @param\ world\ Mundo\ onde\ a\ UI\ ser\u00E1\ adicionada\r\n\ @param\ sherlock\ Inst\u00E2ncia\ do\ jogador\ Sherlock\r\n\ @param\ watson\ Inst\u00E2ncia\ do\ jogador\ Watson\r\n
+comment2.params=
+comment2.target=void\ initUI()
+comment2.text=Inicializa\ os\ elementos\ de\ interface\ e\ adiciona-os\ ao\ mundo.
+comment3.params=
+comment3.target=void\ removerUI()
+comment3.text=\r\n\ Remove\ todos\ os\ elementos\ de\ UI\ do\ mundo.\r\n\ \r\n\ <p>Inclui\ avatares\ e\ cora\u00E7\u00F5es\ de\ ambos\ os\ jogadores.</p>\r\n
+numComments=4

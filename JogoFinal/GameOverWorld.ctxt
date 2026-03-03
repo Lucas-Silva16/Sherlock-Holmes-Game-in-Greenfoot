@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GameOverWorld
+comment0.text=\r\n\ Representa\ o\ ecr\u00E3\ de\ fim\ de\ jogo\ ("Game\ Over")\ apresentado\ quando\ o\ jogador\ perde.\r\n\r\n\ <p>Este\ mundo\ \u00E9\ respons\u00E1vel\ por\ gerir\ o\ estado\ de\ fim\ de\ jogo,\ exibindo\ a\ mensagem\r\n\ de\ derrota\ e\ permitindo\ que\ o\ jogador\ reinicie\ o\ jogo.</p>\r\n\r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Reinicia\ a\ pontua\u00E7\u00E3o\ global\ ao\ entrar\ no\ mundo;</li>\r\n\ \ \ <li>Define\ uma\ imagem\ de\ fundo\ personalizada;</li>\r\n\ \ \ <li>Exibe\ a\ mensagem\ \u201CGAME\ OVER\u201D\ e\ instru\u00E7\u00F5es\ para\ reiniciar;</li>\r\n\ \ \ <li>Toca\ a\ m\u00FAsica\ de\ fundo\ espec\u00EDfica\ do\ ecr\u00E3\ de\ Game\ Over;</li>\r\n\ \ \ <li>Permite\ reiniciar\ o\ jogo\ atrav\u00E9s\ da\ tecla\ <b>ESPA\u00C7O</b>,\ carregando\ o\ n\u00EDvel\ {@link\ CLevel2}.</li>\r\n\ </ul>\r\n\r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=GameOverWorld()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ GameOverWorld}.\r\n\r\n\ <p>Configura\ a\ imagem\ de\ fundo,\ a\ mensagem\ de\ \u201CGame\ Over\u201D,\ as\ instru\u00E7\u00F5es\r\n\ de\ rein\u00EDcio\ e\ a\ m\u00FAsica\ ambiente\ do\ ecr\u00E3.</p>\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ durante\ o\ ciclo\ de\ jogo.\r\n\r\n\ <p>Verifica\ se\ o\ jogador\ pressionou\ a\ tecla\ <b>ESPA\u00C7O</b>\ e,\ caso\ afirmativo,\r\n\ reinicia\ o\ jogo,\ carregando\ o\ n\u00EDvel\ {@link\ CLevel2}.</p>\r\n
+numComments=3

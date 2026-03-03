@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Plataforma
+comment0.text=\r\n\ Representa\ uma\ plataforma\ no\ mundo\ do\ jogo.\r\n\ <p>\r\n\ Esta\ classe\ permite\ que\ jogadores\ (ou\ outros\ atores)\ se\ apoiem\ sobre\ ela,\r\n\ corrigindo\ a\ posi\u00E7\u00E3o\ vertical\ do\ personagem\ quando\ ele\ toca\ no\ topo\ da\ plataforma.\r\n\ \u00C9\ especialmente\ \u00FAtil\ para\ aplicar\ gravidade\ corretamente\ e\ impedir\ que\ o\ personagem\ atravesse\ a\ plataforma.\r\n\ </p>\r\n\ \r\n\ @see\ ControlsPlayers\r\n
+comment1.params=personagem\ controller
+comment1.target=void\ corrigirPosicaoPersonagem(greenfoot.Actor,\ ControlsPlayers)
+comment1.text=\r\n\ Ajusta\ a\ posi\u00E7\u00E3o\ do\ personagem\ quando\ ele\ colide\ com\ o\ topo\ da\ plataforma.\r\n\ <p>\r\n\ Este\ m\u00E9todo\ move\ o\ personagem\ para\ ficar\ em\ cima\ da\ plataforma\r\n\ e\ reseta\ sua\ velocidade\ vertical\ para\ interromper\ a\ queda.\r\n\ </p>\r\n\r\n\ @param\ personagem\ o\ ator\ (por\ exemplo,\ Sherlock\ ou\ Watson)\ cuja\ posi\u00E7\u00E3o\ deve\ ser\ corrigida\r\n\ @param\ controller\ o\ objeto\ ControlsPlayers\ associado\ ao\ personagem,\ usado\ para\ controlar\ a\ velocidade\ vertical\r\n
+numComments=2

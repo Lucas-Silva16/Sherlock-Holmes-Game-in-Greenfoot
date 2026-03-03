@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FLevel5
+comment0.text=\r\n\ Representa\ o\ quinto\ e\ \u00FAltimo\ n\u00EDvel\ do\ jogo,\ onde\ os\ jogadores\ enfrentam\ o\ Boss\ final.\r\n\r\n\ <p>\u00C9\ respons\u00E1vel\ por\ configurar\ o\ cen\u00E1rio,\ criar\ os\ personagens\ principais\ e\ o\ inimigo\ final,\r\n\ bem\ como\ gerir\ a\ interface\ e\ a\ m\u00FAsica\ espec\u00EDfica\ deste\ n\u00EDvel.</p>\r\n\r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Cria\u00E7\u00E3o\ das\ personagens\ {@link\ Sherlock}\ e\ {@link\ Watson}\ com\ posi\u00E7\u00F5es\ iniciais\ definidas;</li>\r\n\ \ \ <li>Cria\u00E7\u00E3o\ e\ posicionamento\ do\ {@link\ Boss}\ como\ inimigo\ principal;</li>\r\n\ \ \ <li>Adi\u00E7\u00E3o\ da\ interface\ do\ jogador\ ({@link\ PlayerUI})\ e\ do\ placar\ de\ pontua\u00E7\u00E3o\ ({@link\ Score});</li>\r\n\ \ \ <li>Execu\u00E7\u00E3o\ da\ m\u00FAsica\ de\ fundo\ espec\u00EDfica\ do\ n\u00EDvel\ final;</li>\r\n\ \ \ <li>Implementa\u00E7\u00E3o\ do\ sistema\ de\ pausa;</li>\r\n\ \ \ <li>Desactiva\u00E7\u00E3o\ dos\ movimentos\ verticais\ e\ da\ capacidade\ de\ salto;</li>\r\n\ \ \ <li>Disponibiliza\u00E7\u00E3o\ de\ um\ m\u00E9todo\ para\ obter\ a\ pontua\u00E7\u00E3o\ actual.</li>\r\n\ </ul>\r\n\r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=FLevel5()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ FLevel5}.\r\n\r\n\ <p>Inicializa\ o\ cen\u00E1rio,\ posiciona\ as\ personagens\ principais\ e\ o\ Boss,\r\n\ adiciona\ os\ elementos\ de\ interface\ e\ inicia\ a\ m\u00FAsica\ de\ fundo\ do\ n\u00EDvel.</p>\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ principal\ do\ ciclo\ de\ jogo,\ executado\ continuamente.\r\n\r\n\ <p>Verifica\ se\ o\ jogo\ est\u00E1\ em\ pausa\ e\ permite\ inserir\ futura\ l\u00F3gica\r\n\ de\ controlo\ ou\ interac\u00E7\u00E3o\ durante\ o\ combate\ com\ o\ Boss.</p>\r\n
+comment3.params=
+comment3.target=Score\ getScore()
+comment3.text=\r\n\ Devolve\ a\ inst\u00E2ncia\ atual\ de\ {@link\ Score}.\r\n\r\n\ @return\ o\ objecto\ {@link\ Score}\ que\ representa\ a\ pontua\u00E7\u00E3o\ do\ jogador.\r\n
+numComments=4

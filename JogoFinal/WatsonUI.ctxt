@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WatsonUI
+comment0.text=\r\n\ Classe\ WatsonUI.\r\n\ <p>\r\n\ Representa\ o\ elemento\ de\ interface\ gr\u00E1fica\ (UI)\ do\ personagem\ Watson.\r\n\ Herda\ de\ {@link\ UI}\ e\ \u00E9\ usado\ para\ exibir\ o\ avatar\ ou\ informa\u00E7\u00F5es\ gr\u00E1ficas\ de\ Watson\ no\ HUD\ do\ jogo.\r\n\ </p>\r\n\ \r\n\ Funcionalidades\ principais\:\r\n\ <ul>\r\n\ \ \ <li>Redimensiona\ a\ imagem\ para\ 500x300\ pixels.</li>\r\n\ \ \ <li>Espelha\ horizontalmente\ a\ imagem,\ ajustando\ a\ dire\u00E7\u00E3o\ para\ o\ display.</li>\r\n\ \ \ <li>N\u00E3o\ possui\ a\u00E7\u00F5es\ autom\u00E1ticas\ no\ m\u00E9todo\ {@link\ \#act()}.</li>\r\n\ </ul>\r\n
+comment1.params=
+comment1.target=WatsonUI()
+comment1.text=\r\n\ Construtor\ da\ classe\ WatsonUI.\r\n\ <p>\r\n\ Inicializa\ a\ imagem\ de\ Watson,\ redimensionando\ e\ espelhando\ horizontalmente.\r\n\ </p>\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ act()\ vazio.\r\n\ <p>\r\n\ Este\ ator\ n\u00E3o\ realiza\ a\u00E7\u00F5es\ autom\u00E1ticas\ no\ mundo\ do\ Greenfoot.\r\n\ </p>\r\n
+numComments=3

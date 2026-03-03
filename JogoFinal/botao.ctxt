@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=botao
+comment0.text=\r\n\ Classe\ respons\u00E1vel\ por\ armazenar\ elementos\ e\ comportamentos\ relacionados\ com\ bot\u00F5es\ no\ jogo.\r\n\ \r\n\ <p>Atualmente\ cont\u00E9m\ apenas\ o\ som\ padr\u00E3o\ que\ \u00E9\ reproduzido\ quando\ um\ bot\u00E3o\ \u00E9\ pressionado.</p>\r\n\ \r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Armazenamento\ de\ um\ som\ est\u00E1tico\ de\ clique\ para\ bot\u00F5es.</li>\r\n\ </ul>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+numComments=1

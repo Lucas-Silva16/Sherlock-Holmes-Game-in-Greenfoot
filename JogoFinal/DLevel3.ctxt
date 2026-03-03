@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DLevel3
+comment0.text=\r\n\ Representa\ o\ terceiro\ n\u00EDvel\ do\ jogo.\r\n\ \r\n\ <p>\u00C9\ respons\u00E1vel\ por\ configurar\ e\ gerir\ todos\ os\ elementos\ e\ mec\u00E2nicas\ do\ n\u00EDvel,\ incluindo\:\r\n\ <ul>\r\n\ \ \ <li>Cria\u00E7\u00E3o\ e\ posicionamento\ das\ personagens\ {@link\ Sherlock}\ e\ {@link\ Watson},\ com\ controlo\ de\ movimento\ vertical;</li>\r\n\ \ \ <li>Defini\u00E7\u00E3o\ de\ limites\ verticais\ superior\ e\ inferior\ para\ as\ personagens;</li>\r\n\ \ \ <li>Inicializa\u00E7\u00E3o\ da\ interface\ do\ jogador\ ({@link\ PlayerUI})\ e\ do\ placar\ ({@link\ Score});</li>\r\n\ \ \ <li>Gest\u00E3o\ do\ gerador\ de\ inimigos\ ({@link\ Spawner})\ que\ cria\ ondas\ de\ inimigos\ de\ forma\ controlada;</li>\r\n\ \ \ <li>Execu\u00E7\u00E3o\ da\ m\u00FAsica\ de\ fundo\ espec\u00EDfica\ do\ n\u00EDvel;</li>\r\n\ \ \ <li>Cria\u00E7\u00E3o\ da\ carta\ final\ ({@link\ PistaFinal})\ quando\ todos\ os\ inimigos\ forem\ eliminados;</li>\r\n\ \ \ <li>Verifica\u00E7\u00E3o\ do\ estado\ de\ pausa\ e\ actualiza\u00E7\u00E3o\ cont\u00EDnua\ dos\ elementos\ do\ jogo.</li>\r\n\ </ul>\r\n\ </p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=DLevel3()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ DLevel3}.\r\n\ \r\n\ <p>Inicializa\ o\ cen\u00E1rio\ do\ n\u00EDvel,\ configura\ as\ personagens,\ a\ interface\ do\ jogador\ e\ o\ placar.\r\n\ Tamb\u00E9m\ activa\ o\ controlo\ vertical\ de\ movimento\ e\ inicia\ o\ gerador\ de\ inimigos\ e\ a\ m\u00FAsica\ de\ fundo.</p>\r\n
+comment2.params=
+comment2.target=void\ pararMusica()
+comment2.text=\r\n\ P\u00E1ra\ a\ m\u00FAsica\ de\ fundo\ do\ n\u00EDvel.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ M\u00E9todo\ executado\ continuamente\ durante\ o\ ciclo\ de\ jogo.\r\n\ \r\n\ <p>\u00C9\ respons\u00E1vel\ por\:\r\n\ <ul>\r\n\ \ \ <li>Verificar\ se\ o\ jogo\ est\u00E1\ em\ pausa;</li>\r\n\ \ \ <li>Limitar\ o\ movimento\ vertical\ das\ personagens;</li>\r\n\ \ \ <li>Actualizar\ o\ gerador\ de\ inimigos\ e\ o\ placar;</li>\r\n\ \ \ <li>Fazer\ aparecer\ a\ carta\ final\ quando\ todos\ os\ inimigos\ forem\ derrotados.</li>\r\n\ </ul>\r\n\ </p>\r\n
+comment4.params=
+comment4.target=void\ limitarMovimentoVertical()
+comment4.text=\r\n\ Limita\ o\ movimento\ vertical\ das\ personagens\ Sherlock\ e\ Watson,\ \r\n\ impedindo\ que\ ultrapassem\ os\ limites\ superior\ e\ inferior\ do\ ecr\u00E3.\r\n
+comment5.params=
+comment5.target=void\ spawnCarta()
+comment5.text=\r\n\ Cria\ a\ carta\ final\ ({@link\ PistaFinal})\ no\ centro\ do\ ecr\u00E3\r\n\ quando\ todas\ as\ ondas\ de\ inimigos\ forem\ conclu\u00EDdas.\r\n
+numComments=6

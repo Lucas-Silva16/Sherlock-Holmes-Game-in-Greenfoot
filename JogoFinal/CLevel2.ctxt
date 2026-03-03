@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CLevel2
+comment0.text=\r\n\ Representa\ o\ segundo\ n\u00EDvel\ do\ jogo.\r\n\ \r\n\ <p>\u00C9\ respons\u00E1vel\ por\ configurar\ e\ gerir\ todos\ os\ elementos\ do\ n\u00EDvel,\ incluindo\:\r\n\ <ul>\r\n\ \ \ <li>Cria\u00E7\u00E3o\ e\ posicionamento\ das\ personagens\ {@link\ Sherlock}\ e\ {@link\ Watson};</li>\r\n\ \ \ <li>Ativa\u00E7\u00E3o\ da\ funcionalidade\ de\ salto\ para\ ambos\ os\ jogadores;</li>\r\n\ \ \ <li>Inicializa\u00E7\u00E3o\ da\ interface\ do\ jogador\ ({@link\ PlayerUI})\ e\ do\ placar\ ({@link\ Score});</li>\r\n\ \ \ <li>Adi\u00E7\u00E3o\ de\ plataformas,\ obst\u00E1culos\ e\ elementos\ decorativos\ (como\ t\u00E1buas,\ barris\ e\ nuvens);</li>\r\n\ \ \ <li>Cria\u00E7\u00E3o\ de\ inimigos\ espec\u00EDficos\ ({@link\ Fantasma})\ em\ posi\u00E7\u00F5es\ definidas;</li>\r\n\ \ \ <li>Inser\u00E7\u00E3o\ da\ pista\ interactiva\ ({@link\ Pista1})\ que\ permite\ avan\u00E7ar\ para\ o\ pr\u00F3ximo\ n\u00EDvel;</li>\r\n\ \ \ <li>Controlo\ da\ m\u00FAsica\ de\ fundo\ e\ possibilidade\ de\ a\ parar\ quando\ necess\u00E1rio;</li>\r\n\ \ \ <li>Actualiza\u00E7\u00E3o\ do\ placar\ e\ verifica\u00E7\u00E3o\ do\ estado\ de\ pausa\ a\ cada\ ciclo\ de\ jogo.</li>\r\n\ </ul>\r\n\ </p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=CLevel2()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ CLevel2}.\r\n\ \r\n\ <p>Configura\ o\ cen\u00E1rio\ do\ n\u00EDvel,\ cria\ as\ personagens\ e\ adiciona\ todos\ os\ elementos\ visuais\r\n\ e\ interactivos,\ incluindo\ plataformas,\ inimigos\ e\ a\ pista\ para\ o\ pr\u00F3ximo\ n\u00EDvel.\r\n\ Tamb\u00E9m\ inicia\ a\ reprodu\u00E7\u00E3o\ da\ m\u00FAsica\ de\ fundo.</p>\r\n
+comment2.params=
+comment2.target=void\ pararMusica()
+comment2.text=\r\n\ P\u00E1ra\ a\ m\u00FAsica\ de\ fundo\ do\ n\u00EDvel.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ M\u00E9todo\ executado\ continuamente\ durante\ o\ ciclo\ de\ jogo.\r\n\ \r\n\ <p>\u00C9\ respons\u00E1vel\ por\:\r\n\ <ul>\r\n\ \ \ <li>Verificar\ se\ o\ jogo\ est\u00E1\ em\ pausa;</li>\r\n\ \ \ <li>Actualizar\ o\ placar\ de\ pontua\u00E7\u00E3o.</li>\r\n\ </ul>\r\n\ </p>\r\n
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WinWorld
+comment0.text=\r\n\ Representa\ o\ ecr\u00E3\ de\ vit\u00F3ria\ do\ jogo,\ apresentado\ quando\ o\ jogador\ conclui\ todos\ os\ n\u00EDveis.\r\n\r\n\ <p>Este\ mundo\ exibe\ uma\ mensagem\ de\ parab\u00E9ns,\ mostra\ a\ pontua\u00E7\u00E3o\ final\ do\ jogador\r\n\ e\ permite\ retornar\ ao\ menu\ principal.</p>\r\n\r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Mostra\ uma\ mensagem\ de\ vit\u00F3ria\ e\ a\ pontua\u00E7\u00E3o\ final\ do\ jogador;</li>\r\n\ \ \ <li>Define\ uma\ imagem\ de\ fundo\ personalizada\ para\ o\ ecr\u00E3\ de\ vit\u00F3ria;</li>\r\n\ \ \ <li>Exibe\ instru\u00E7\u00F5es\ para\ retornar\ ao\ menu\ principal\ atrav\u00E9s\ da\ tecla\ <b>ESPA\u00C7O</b>;</li>\r\n\ \ \ <li>Toca\ a\ m\u00FAsica\ de\ vit\u00F3ria\ ao\ entrar\ no\ mundo;</li>\r\n\ \ \ <li>Ao\ pressionar\ <b>ESPA\u00C7O</b>,\ para\ a\ m\u00FAsica\ e\ carrega\ o\ menu\ principal\ {@link\ Amenu_jogo}.</li>\r\n\ </ul>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=score
+comment1.target=WinWorld(int)
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ WinWorld}.\r\n\ \r\n\ <p>Configura\ a\ imagem\ de\ fundo,\ exibe\ a\ mensagem\ de\ vit\u00F3ria,\ mostra\ a\ pontua\u00E7\u00E3o\r\n\ e\ inicia\ a\ m\u00FAsica\ de\ vit\u00F3ria.</p>\r\n\ \r\n\ @param\ score\ a\ pontua\u00E7\u00E3o\ final\ do\ jogador\ a\ apresentar\ no\ ecr\u00E3.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ durante\ o\ ciclo\ de\ jogo.\r\n\ \r\n\ <p>Verifica\ se\ o\ jogador\ pressionou\ a\ tecla\ <b>ESPA\u00C7O</b>\ e,\ caso\ afirmativo,\r\n\ para\ a\ m\u00FAsica\ de\ vit\u00F3ria\ e\ carrega\ o\ menu\ principal\ {@link\ Amenu_jogo}.</p>\r\n
+numComments=3

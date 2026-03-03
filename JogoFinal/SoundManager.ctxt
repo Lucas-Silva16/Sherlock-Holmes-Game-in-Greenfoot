@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SoundManager
+comment0.text=\r\n\ Classe\ respons\u00E1vel\ por\ gerir\ a\ reprodu\u00E7\u00E3o\ de\ m\u00FAsicas\ e\ sons\ de\ fundo.\r\n\ \r\n\ <p>Permite\ tocar,\ parar\ e\ alternar\ m\u00FAsicas\ sem\ que\ estas\ se\ sobreponham.</p>\r\n\ \r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Reproduzir\ uma\ m\u00FAsica\ em\ loop;</li>\r\n\ \ \ <li>Evitar\ repetir\ a\ mesma\ m\u00FAsica\ se\ j\u00E1\ estiver\ a\ tocar;</li>\r\n\ \ \ <li>Parar\ a\ m\u00FAsica\ atual.</li>\r\n\ </ul>\r\n\ \r\n\ <p>Todos\ os\ m\u00E9todos\ e\ vari\u00E1veis\ s\u00E3o\ est\u00E1ticos\ para\ f\u00E1cil\ acesso\ global.</p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=nomeFicheiro\ volume
+comment1.target=void\ tocarMusica(java.lang.String,\ int)
+comment1.text=\r\n\ Toca\ a\ m\u00FAsica\ indicada\ em\ loop.\r\n\ \r\n\ <p>Se\ a\ m\u00FAsica\ j\u00E1\ estiver\ a\ tocar,\ n\u00E3o\ faz\ nada.</p>\r\n\ \r\n\ @param\ nomeFicheiro\ Nome\ do\ ficheiro\ de\ som\r\n\ @param\ volume\ Volume\ da\ m\u00FAsica\ (0\u2013100)\r\n
+comment2.params=
+comment2.target=void\ pararMusica()
+comment2.text=\r\n\ Para\ a\ m\u00FAsica\ atual,\ se\ houver\ alguma\ a\ tocar.\r\n
+numComments=3

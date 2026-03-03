@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BaseWorld
+comment0.text=\r\n\ BaseWorld\ \u00E9\ a\ classe\ base\ para\ todos\ os\ mundos\ do\ jogo,\ fornecendo\ funcionalidades\ comuns.\r\n\r\n\ Funcionalidades\ principais\:\r\n\ -\ Extende\ World\ para\ definir\ o\ tamanho\ do\ mundo\ e\ a\ escala\ (1\ pixel\ \=\ 1\ unidade).\r\n\ -\ Implementa\ sistema\ de\ pausa\:\r\n\ \ \ -\ Pressionar\ ESC\ ativa/desativa\ a\ pausa.\r\n\ \ \ -\ Durante\ a\ pausa,\ exibe\ "PAUSED"\ no\ centro\ do\ ecr\u00E3.\r\n\ -\ M\u00E9todo\ isGamePaused()\ permite\ que\ outros\ objetos\ verifiquem\ se\ o\ jogo\ est\u00E1\ pausado.\r\n\r\n\ Todas\ as\ classes\ de\ mundo\ (n\u00EDveis,\ menu,\ game\ over,\ vit\u00F3ria)\ devem\ estender\ BaseWorld\r\n\ para\ herdar\ estas\ funcionalidades.\r\n
+comment1.params=width\ height
+comment1.target=BaseWorld(int,\ int)
+comment2.params=
+comment2.target=void\ checkPause()
+comment3.params=
+comment3.target=boolean\ isGamePaused()
+numComments=4

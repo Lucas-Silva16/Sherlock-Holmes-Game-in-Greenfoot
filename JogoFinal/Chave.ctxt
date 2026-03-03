@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Chave
+comment0.text=\r\n\ Representa\ a\ chave\ que\ os\ jogadores\ devem\ coletar\ para\ avan\u00E7ar\r\n\ para\ o\ \u00FAltimo\ n\u00EDvel\ do\ jogo\ (o\ labirinto\ do\ lobisomem).\r\n\r\n\ <p>Funcionalidades\ principais\:</p>\r\n\ <ul>\r\n\ \ \ <li>Redimensiona\ a\ imagem\ da\ chave\ ao\ ser\ criada;</li>\r\n\ \ \ <li>Verifica\ se\ os\ jogadores\ {@link\ Sherlock}\ e\ {@link\ Watson}\ \r\n\ \ \ \ \ \ \ interagiram\ com\ a\ chave\ simultaneamente;</li>\r\n\ \ \ <li>Exibe\ uma\ pergunta\ de\ confirma\u00E7\u00E3o\ antes\ de\ avan\u00E7ar\ para\ o\ n\u00EDvel\ final;</li>\r\n\ \ \ <li>Para\ a\ m\u00FAsica\ do\ n\u00EDvel\ atual\ antes\ de\ mudar\ para\ {@link\ FLevel5};</li>\r\n\ \ \ <li>Garante\ que\ a\ chave\ s\u00F3\ pode\ ser\ usada\ uma\ vez.</li>\r\n\ </ul>\r\n\ \r\n\ <p>Este\ actor\ \u00E9\ utilizado\ no\ quarto\ n\u00EDvel\ {@link\ ELevel4}\ para\ desbloquear\r\n\ o\ acesso\ ao\ n\u00EDvel\ final.</p>\r\n\ \r\n\ @author\ Grupo\ 8\r\n
+comment1.params=
+comment1.target=Chave()
+comment1.text=\r\n\ Construtor\ da\ classe\ {@code\ Chave}.\r\n\r\n\ <p>Redimensiona\ a\ imagem\ original\ da\ chave\ para\ o\ tamanho\ adequado\ no\ mundo.</p>\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ executado\ continuamente\ pelo\ ciclo\ de\ jogo.\r\n\r\n\ <p>Verifica\ se\ os\ jogadores\ interagiram\ com\ a\ chave,\ exibe\ a\ confirma\u00E7\u00E3o\r\n\ e,\ se\ autorizado,\ para\ a\ m\u00FAsica\ do\ n\u00EDvel\ atual,\ remove\ a\ chave\ e\r\n\ avan\u00E7a\ para\ {@link\ FLevel5}.</p>\r\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=nuvem
+comment0.text=\r\n\ Representa\ uma\ nuvem\ no\ mundo\ do\ jogo.\r\n\ <p>\r\n\ Esta\ classe\ \u00E9\ um\ tipo\ de\ plataforma\ que\ pode\ suportar\ jogadores\ ou\ outros\ atores.\r\n\ Herda\ todas\ as\ funcionalidades\ da\ classe\ {@link\ Plataforma},\ incluindo\ corre\u00E7\u00E3o\ de\ posi\u00E7\u00E3o\ e\ suporte\ ao\ personagem.\r\n\ A\ nuvem\ \u00E9\ est\u00E1tica\ e\ n\u00E3o\ possui\ a\u00E7\u00F5es\ cont\u00EDnuas\ no\ m\u00E9todo\ {@link\ \#act()}.\r\n\ </p>\r\n\ \r\n\ @see\ Plataforma\r\n
+comment1.params=
+comment1.target=nuvem()
+comment1.text=\r\n\ Construtor\ da\ classe\ Nuvem.\r\n\ <p>\r\n\ Define\ a\ imagem\ da\ nuvem\ ao\ criar\ o\ objeto\ e\ redimensiona\ para\ 50x50\ pixels.\r\n\ </p>\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ act()\ chamado\ a\ cada\ ciclo\ do\ mundo.\r\n\ <p>\r\n\ Neste\ caso,\ o\ m\u00E9todo\ est\u00E1\ vazio\ porque\ a\ nuvem\ n\u00E3o\ possui\ a\u00E7\u00F5es\ cont\u00EDnuas.\r\n\ </p>\r\n
+numComments=3
