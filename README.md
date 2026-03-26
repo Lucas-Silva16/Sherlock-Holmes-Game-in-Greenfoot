@@ -52,4 +52,4 @@ Teamwork is the core mechanic. While one player focuses on crowd control and com
 
 ---
 
-> *"The game is afoot, Watson! And this time, the clues are made of gunpowder and monsters."* 🔍🚀
+> *"The game is afoot, Watson! And this time, the clues are made of gunpowder and monsters"* 🔍🚀
